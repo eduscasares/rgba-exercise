@@ -1,0 +1,15 @@
+.color-card {
+    min-width: 255px;
+    min-height: 255px;
+    max-width: 255px;
+    max-height: 255px;
+    border-radius: 14px;
+    box-shadow: 0 5px 25px -7px rgba(0, 0, 0, 0.3);
+    transition: 
+        background-color 1s ease-in-out,
+        transform 250ms cubic-bezier(0,.96,.61,1.48);
+}
+
+.color-card:hover {
+    transform: rotate(90deg);
+}
